@@ -1,4 +1,4 @@
-# audiomap-ai
+# AudioMap
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-audiomap-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://audiomap.ai/
+AudioMap provides AI-powered transcription and note-taking services for meetings, webinars and audio/video content, focusing on Spanish and English. Hosted on European servers, it ensures data residency within the EU and complies with privacy regulations. Users can generate summaries, action items, and structured deliverables such as minutes, emails and slide decks. Free tier offers 300 minutes per month; paid plans scale for higher usage.
+
+**Areas:** Company · AI · Transcription · Audio · MeetingNotes · Europe
+
+## AudioMap on APIs.io
+
+Everything profiled for AudioMap is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/audiomap-ai/](https://apis.io/providers/audiomap-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [AudioMap Ask API](https://apis.io/apis/audiomap-ai/audiomap-ai-ask-api/) — Ask questions over one note or the whole library
+- [AudioMap Content API](https://apis.io/apis/audiomap-ai/audiomap-ai-content-api/) — Transcript, analysis and outline of a note
+- [AudioMap Deliverables API](https://apis.io/apis/audiomap-ai/audiomap-ai-deliverables-api/) — Generate emails, documents and slide decks from a note
+- [AudioMap Notes API](https://apis.io/apis/audiomap-ai/audiomap-ai-notes-api/) — Create and browse notes
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Audiomap Ai Agentic Access](https://apis.io/agentic-access/audiomap-ai/audiomap-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateNoteRequest](https://apis.io/schemas/audiomap-ai/audiomap-ai-create-note-request/)
+- [CreateNoteResponse](https://apis.io/schemas/audiomap-ai/audiomap-ai-create-note-response/)
+- [GlobalAnswer](https://apis.io/schemas/audiomap-ai/audiomap-ai-global-answer/)
+- [NoteDetail](https://apis.io/schemas/audiomap-ai/audiomap-ai-note-detail/)
+- [SpeakerList](https://apis.io/schemas/audiomap-ai/audiomap-ai-speaker-list/)
+- [Transcript](https://apis.io/schemas/audiomap-ai/audiomap-ai-transcript/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Audiomap Ai Context](https://apis.io/jsonld/audiomap-ai/audiomap-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AudioMap API Rules](https://apis.io/rules/audiomap-ai/audiomap-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Audiomap Ai Authentication](https://apis.io/security/audiomap-ai/audiomap-ai-authentication/)
+- [Audiomap Ai Domain Security](https://apis.io/security/audiomap-ai/audiomap-ai-domain-security/)
+- [Audiomap Ai Trust Center](https://apis.io/security/audiomap-ai/audiomap-ai-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Audiomap Ai Scopes](https://apis.io/scopes/audiomap-ai/audiomap-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Audiomap Ai Plans Pricing](https://apis.io/plans/audiomap-ai/audiomap-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://audiomap.ai/)
+- [Documentation](https://api.audiomap.ai/docs)
+- [Getting started](https://audiomap.ai/es/docs/mcp-setup)
+- [Pricing](https://audiomap.ai/es/pricing)
+- [Sign up](https://audiomap.ai/es/register)
+- [Support](https://audiomap.ai/es/support)
+- [Blog](https://audiomap.ai/es/blog)
+- [Security](https://audiomap.ai/es/security)
+- [Compliance](https://audiomap.ai/es/trust)
+- [Terms of service](https://audiomap.ai/es/terms)
+- [Privacy policy](https://audiomap.ai/es/privacy)
+- [GitHub](https://github.com/audiomap)
+- [Status](https://audiomap.ai/es/status)
+
+## API Evangelist rating
+
+**Kin Score 70.0** — exemplar · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 62.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 44.7 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 88.9 |
+
+**Agent readiness 54.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 36.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/audiomap-ai/](https://apis.io/providers/audiomap-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AudioMap: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/audiomap-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
